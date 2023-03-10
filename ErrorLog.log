@@ -1,0 +1,12 @@
+System.Data.SqlClient.SqlException (0x80131904): String or binary data would be truncated in table 'seminario2_bd2_201900528.dbo.pivote_comp', column 'DireccionProveedor'. Truncated value: '5ta. avenida 5-55 zona 14 torre 3, nivel 12 edificio europlaza world business center oficina 1201 a '.
+The statement has been terminated.
+   en System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   en System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   en System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   en System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   en System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   en ST_97424c7830174f11aa9b3bc31fb5960f.ScriptMain.Main()
+ClientConnectionId:a4bafb18-6b52-4b47-b122-0f6bf3a9420a
+Error Number:2628,State:1,Class:16
